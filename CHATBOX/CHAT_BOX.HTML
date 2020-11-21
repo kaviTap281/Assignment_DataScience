@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT_BOX</title>
+    <link rel="stylesheet" href="CHAT_BOX.CSS">
+    <script src="CHAT_BOX.JS"></script>
+</head>
+
+<body>
+    <div class="container">
+        <button class="btnchat" type="button" onclick="openChat()">Chat</button>
+
+        <div class="chatbox" id="chatbox">
+            <h2>Message</h2>
+            <form class="msgbox">
+                <textarea name="msg" placeholder="Type you message here..." required=""></textarea>
+                <button type="submit" class="btnsend">Send</button>
+                <button type="button" class="btnclose" onclick="closeChat()">&times;</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
